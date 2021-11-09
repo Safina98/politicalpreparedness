@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Political Preparedness</string>
+    <string name="up_comming_election">Upcomming Elections</string>
+    <string name="representative_title">Representatives</string>
+    <string name="find_representative">Find Representative</string>
+    <string name="election_information">Election Information</string>
+    <string name="voting_location">Voting Location</string>
+    <string name="ballot_information">Ballot Information</string>
+    <string name="upcomming_election">UPCOMMING ELECTION</string>
+    <string name="find_my_representative">FIND MY REPRESENTATIVE</string>
+    <string name="ballot_logo">Ballot Logo</string>
+    <string name="saved_election">Saved Election</string>
+    <string name="follow">Follow Election</string>
+    <string name="unfollow">Unfollow Election</string>
+    <string name="correspondence_address">Correspondence Address</string>
+    <string name="get_my_location">GET MY LOCATION</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="twitter_icon">Twitter Icon</string>
+    <string name="facebook_icon">Facebook icon</string>
+    <string name="www_icon">WWW Icon</string>
+    <string name="get_location_denied">Access Location Permission Denied. Cannot Get Location</string>
+    <string name="get_location_failed">Cannot Get Location. Turn on device location and internet connection</string>
+    <string name="loading_status">Loading Status</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="election"
+            type="com.example.android.politicalpreparedness.network.models.Election" />
+        <variable
+            name="electionListener"
+            type="com.example.android.politicalpreparedness.election.adapter.ElectionListener" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/very_smal_margin"
+        android:layout_marginEnd="@dimen/very_smal_margin"
+        android:layout_marginBottom="@dimen/very_smal_margin"
+        android:onClick="@{()->electionListener.onClick(election)}">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/very_smal_margin"
+                android:layout_marginTop="@dimen/very_smal_margin"
+                android:text="@{election.name}"
+                tools:text="Recycler header"
+                style="@style/rc_header_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/very_smal_margin"
+                android:layout_marginTop="@dimen/very_smal_margin"
+                android:text="@{election.electionDay.toString()}"
+                tools:text="Recycler Sub header" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

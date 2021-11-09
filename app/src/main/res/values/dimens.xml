@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="meduum_margin">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="btn_text_size">16sp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="very_smal_margin">4dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+
+
+
+</resources>
